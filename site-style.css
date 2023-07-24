@@ -8,6 +8,30 @@
     100% {opacity: 1;}
 }
 
+.mobile-warning {
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    background-color: black;
+}
+
+.mobile-warning p {
+    color: white;
+
+    text-align: center;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 0px;
+}
+
+.mobile-warning i {
+    color: rgb(255, 208, 0);
+}
+
 
 .main {
     position: absolute;
@@ -78,7 +102,7 @@
     border-radius: 40px;
     border: 4px solid black;
 
-    width: 90%;
+    width: 80%;
     max-width: 600px;
 
     margin-top: 20px;
@@ -129,7 +153,7 @@
     border-radius: 40px;
     border: 4px solid black;
 
-    width: 90%;
+    width: 80%;
     max-width: 600px;
 
     margin-top: 20px;
@@ -180,7 +204,7 @@
     border-radius: 40px;
     border: 4px solid black;
 
-    width: 90%;
+    width: 80%;
     max-width: 600px;
 
     margin-top: 20px;
@@ -232,7 +256,7 @@
 
     box-shadow: 2px 4px 4px black;
 
-    width: 90%;
+    width: 80%;
     max-width: 600px;
 
     margin-top: 20px;
@@ -295,7 +319,7 @@
     border-radius: 40px;
     border: 4px solid black;
 
-    width: 90%;
+    width: 80%;
     max-width: 600px;
 
     margin-top: 20px;
@@ -346,7 +370,7 @@
     border-radius: 40px;
     border: 4px solid black;
 
-    width: 90%;
+    width: 80%;
     max-width: 600px;
 
     margin-top: 20px;
@@ -397,7 +421,7 @@
     border-radius: 40px;
     border: 4px solid black;
 
-    width: 90%;
+    width: 80%;
     max-width: 600px;
 
     margin-top: 20px;
@@ -436,10 +460,12 @@
 }
 
 .cool-people {
+    width: 90%;
+    max-width: 600px;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    max-width: 600px;
 }
 
 .monthly-vid-feat {
@@ -448,6 +474,8 @@
 }
 
 .monthly-vid-feat iframe {
+    max-width: 560px;
+
     margin-top: 11px;
     margin-left: auto;
     margin-right: auto;
@@ -457,6 +485,7 @@
 }
 
 .vrplanet {
+
     background: rgba(0, 0, 0, 0.05);
 
     padding-top: 12px;
@@ -466,6 +495,9 @@
     margin-top: 8px;
 
     border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+
+    font-family: 'Quicksand', sans-serif;
 }
 
 .vrplanet a {
@@ -489,6 +521,9 @@
     margin-top: 15px;
 
     border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+
+    font-family: 'Quicksand', sans-serif;
 }
 
 .jjjames120 a {
@@ -518,6 +553,9 @@
     margin-top: 15px;
 
     border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+
+    font-family: 'Quicksand', sans-serif;
 }
 
 .yangli a {
@@ -541,6 +579,9 @@
     margin-top: 15px;
 
     border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+
+    font-family: 'Quicksand', sans-serif;
 }
 
 .sjohnson a {
@@ -561,6 +602,7 @@
 }
 
 .become-affiliate {
+    width: 90%;
     max-width: 600px;
 
     margin-top: 40px;
@@ -577,11 +619,14 @@
 }
 
 .sponsorship-1 {
+    width: 75%;
     max-width: 600px;
 
     background-color: rgba(0, 0, 0, 0.4);
     background-image:  linear-gradient( to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
     url("https://i.postimg.cc/mDktW4fb/sponsorship-1.png");
+
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
 
     background-position-x: center;
     background-position-y: center;
@@ -674,11 +719,14 @@
 }
 
 .sponsorship-2 {
+    width: 75%;
     max-width: 600px;
 
     background-color: rgba(0, 0, 0, 0.4);
     background-image:  linear-gradient( to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
     url("https://i.postimg.cc/br3PyDQW/sponsorship-2.jpg");
+
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
 
     background-position-x: center;
     background-position-y: center;
@@ -869,15 +917,30 @@
     color: black;
 }
 
-.footer .policies a {
-    cursor: pointer;
-
+.footer .policies {
     transition: all 0.4s;
 
     position: relative;
     color: black;
 
     margin-left: 50px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer .policies a {
+    cursor: pointer;
+
+    transition: all 0.4s;
+
+    margin-left: 6px;
+
+    position: relative;
+    color: black;
 
     text-decoration: none;
 
@@ -909,11 +972,16 @@
 /* priv-policy.html */
 
 .privacy-policy {
+    width: 90%;
     max-width: 600px;
 
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.privacy-policy p {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .privacy-policy .btns {
@@ -949,7 +1017,9 @@
 }
 
 /* sponsorships.html */
+
 .feat-spons-info {
+    width: 90%;
     max-width: 600px;
 
     margin-top: 80px;
@@ -981,4 +1051,104 @@
     color: black;
     
     text-decoration: none;
+}
+
+/* upd-log.html */
+.update-log {
+    width: 90%;
+    max-width: 600px;
+
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.update-log p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.update-log .btns {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 26px;
+
+    text-align: center;
+}
+
+.update-log .btns a {
+    margin-left: 12px;
+}
+
+.update-log .btns .homepage {
+    color: black;
+    
+    text-decoration: none;
+}
+
+.update-log .btns .print {
+    color: black;
+    
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 432px) {
+    
+    .mobile-warning {
+
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        background-color: black;
+
+        box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    }
+
+    .mobile-warning p {
+        color: white;
+
+        text-align: center;
+
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .mobile-warning i {
+        color: rgb(255, 208, 0);
+    }
+
+    .sponsorship-1 {
+        border-radius: 40px;
+    }
+
+    .sponsorship-2 {
+        border-radius: 40px;
+    }
+
+    .footer .name {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .footer .last-upd { 
+        font-size: 13px; 
+        margin-left: 10px;
+    }
+    
+    .footer .socials { 
+        font-size: 18px; 
+        margin-left: 10px;
+    }
+
+    .footer .policies { 
+        margin-left: 8px;
+    }
+
+    .footer .policies a {
+        font-size: 13px;
+    }
 }
