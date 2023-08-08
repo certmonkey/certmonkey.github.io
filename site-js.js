@@ -15,11 +15,15 @@ function open_tiktok() {
 }
 
 function open_twitch() {
-    window.open("https://www.twitch.tv/chzzytv")
+    window.open("https://www.twitch.tv/monkestreamz")
 }
 
 function open_twitter() {
     window.open("https://twitter.com/sircheezyyt")
+}
+
+function open_patreon() {
+    window.open("https://patreon.com/certifiedmonkey")
 }
 
 function open_sponsor1() {
